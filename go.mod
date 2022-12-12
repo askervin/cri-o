@@ -21,7 +21,7 @@ require (
 	github.com/containers/storage v1.32.2
 	github.com/coreos/go-systemd/v22 v22.3.2
 	github.com/cpuguy83/go-md2man v1.0.10
-	github.com/creack/pty v1.1.13
+	github.com/creack/pty v1.1.18
 	github.com/cri-o/ocicni v0.2.1-0.20210301205850-541cf7c703cf
 	github.com/cyphar/filepath-securejoin v0.2.2
 	github.com/docker/distribution v2.7.1+incompatible
@@ -55,8 +55,8 @@ require (
 	github.com/urfave/cli/v2 v2.3.0
 	github.com/vishvananda/netlink v1.1.1-0.20201029203352-d40f9887b852
 	golang.org/x/net v0.0.0-20210428140749-89ef3d95e781
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20210603125802-9665404d3644
+	golang.org/x/sync v0.1.0
+	golang.org/x/sys v0.3.0
 	google.golang.org/grpc v1.38.0
 	k8s.io/api v0.21.1
 	k8s.io/apimachinery v0.21.1
@@ -66,7 +66,7 @@ require (
 	k8s.io/kubernetes v1.21.1
 	k8s.io/release v0.8.0
 	k8s.io/utils v0.0.0-20210305010621-2afb4311ab10
-	mvdan.cc/sh/v3 v3.3.0
+	mvdan.cc/sh/v3 v3.6.0
 	sigs.k8s.io/release-utils v0.2.1
 	sigs.k8s.io/zeitgeist v0.3.0
 )
